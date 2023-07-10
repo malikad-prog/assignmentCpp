@@ -18,6 +18,7 @@
 // https://cplusplus.com/doc/tutorial/operators/
 // https://isocpp.org/wiki/faq/operator-overloading
 
+
 /*
 Answers:
 	Added implementation for operator bool().
