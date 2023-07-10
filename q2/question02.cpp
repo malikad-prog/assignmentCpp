@@ -6,11 +6,15 @@
 // Make sure you compile the code in "Release" configuration (e.g O2 optimization level).
 // Do not modify the constexpr variables
 
+
+
 /* Explanation:
     - Changed the gSum to be an atomic variable. 
       It allow us to use a lock-free approach to change gSum without getting into a race condition.
 
     - Created two threads - one for each operation. 
+
+	- Changed sum to gSum in the std::cout comparison (leaving sum variable a comment).
 */
 
 

@@ -42,7 +42,6 @@ int main(int argc, char *argv[])
 	float fNum = 0;
 	// calculate fNum = (2 * 3) + (4 * 5) + 6
 	
-	//TODO: Your code here
     auto add = [](float a, float b)->float { return a + b;};
 
     auto multiply = [](float a, float b)->float { return a * b;};
