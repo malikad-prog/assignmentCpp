@@ -10,6 +10,7 @@
 // Do not remove any function or change threads dispatching order - 
 // you can(and should) change the functions body/signature
 
+
 /*
 Answer:
 	The memory leak is when creating Payload pointer, but not releasing it (in dispacher_thread()).
@@ -27,7 +28,6 @@ Answer:
 #include <thread>
 #include <random>
 #include <memory>
-
 
 struct Payload {
 
